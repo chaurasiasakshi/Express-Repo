@@ -1,0 +1,32 @@
+Library VS FrameWork 
+
+library is pre-written code  that can be used by other developers. It provides a set of functions and classes to perform specific tasks
+example --> axios
+
+framework is set of pre-written code  that provides 
+structure for devolping software applications
+example --> express 
+
+EXPRESS -->
+Node.js web application framework that help us to make web applications
+It is used for server side programming
+
+EXPRESS Major work on -->
+1.Listen for incoming
+requests, route them to appropriate response functions, and send back responses.
+2.Parse request bodies as form data or JSON
+3.Match response with routes
+4.Serve static files
+
+
+1. Installing Node.js and npm (node package manager) 
+2. Creating a new project folder using terminal or cmd
+3. Open the terminal/cmd in your project folder
+4. Run command `npm init -y` to create a new node project with default settings
+5. Then install Express by running this command: `npm i express`
+6. Create a file named server.js inside your project folder
+7. Require the express module on top of your server.js file like this : `const express = require('express')`
+8. Create an instance of the express app from the express module like this: `const app = express()`
+9. Define a route handler function, which will be called whenever someone makes a request to our website at the path "/"
+
+PORT is a logical endpoints of a network
