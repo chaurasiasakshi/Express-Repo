@@ -30,3 +30,40 @@ requests, route them to appropriate response functions, and send back responses.
 9. Define a route handler function, which will be called whenever someone makes a request to our website at the path "/"
 
 PORT is a logical endpoints of a network
+
+
+(*)Sending a Response --> 
+1. request 
+2. response
+     
+
+.send()    // sends the HTTP response header and body 
+.json()   // sends a JSON response
+.end()    // ends the response process
+.status(code) // Sets the HTTP status code
+
+Request Object-->
+req.params -- contains dynamic parts of the URL path that match the RegEx pattern defined in the route
+req.query -- contains query string parameters
+req.body -- contains the value of payload sent in the body of the request
+
+To get the full url use req.url
+
+To access any other information about the client machine you can use following properties of req object
+- req.headers
+- req.method
+- req.protocol
+- req.ip
+
+
+Middleware Functions are functions that have access to the request and response objects. They execute asynchronously and can be used to perform tasks such as logging, authentication, data validation,app.use([path], function(){})app.use([path], function(){})
+
+Static Files Serving-->
+app.use(path, serveStatic(root, options))
+
+
+(*)ROUTING -- > Path
+  Defining what happens when a specific type of http request comes into our server at a particular endpoint or Options for serveStatic a
+
+* app.use listen every route
+* app.get(path,callback)
