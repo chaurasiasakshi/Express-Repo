@@ -21,18 +21,29 @@ app.listen(port,(err)=>{
 //     resp.send(code);
 // });
 
-app.get("/",(req,resp)=>{
-    resp.send("You are on ROOT path");
-});
-app.get("/about",(req,resp)=>{
-    resp.send("You are on About path");
-});
-app.get("/contact",(req,resp)=>{
-    resp.send("You are on ContactUS path");
-});
-app.get("*",(req,resp)=>{
-    resp.send("This path doesn't exit");
-});
+// app.get("/",(req,resp)=>{
+//     resp.send("You are on ROOT path");
+// });
+// app.get("/about",(req,resp)=>{
+//     resp.send("You are on About path");
+// });
+// app.get("/contact",(req,resp)=>{
+//     resp.send("You are on ContactUS path");
+// });
+// app.get("*",(req,resp)=>{
+//     resp.send("This path doesn't exit");
+// });
 app.post("/",(req,resp)=>{
     resp.send("We request POST  Method here");
+});
+// app.get("/:username/:id",(req,resp)=>{
+//     let {username,id} = req.params;
+//     resp.send(`welcome to the page of @${username}`);
+// });
+app.get("/search",(req,resp)=>{
+    let {q} = req.query;
+    if(!q){
+        resp.send("Quey not found");
+    }
+    resp.send(`search result for query :${q}`);
 });
