@@ -1,1 +1,11 @@
 EJS is template
+
+app.set("view engine","ejs");
+
+app.send --> string array boolean object html
+
+interpolation --> embedding expressions  inside `${name}`;
+
+Using INSTA EJs : 
+
+Conditional Statement in EJS

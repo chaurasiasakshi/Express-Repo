@@ -1,0 +1,52 @@
+{
+    "Moh":{
+        "name":"Mohammad",
+        "followers":25000,
+        "following":6,
+        "posts":[
+            {
+                "title":"My first post as a developer.",
+                "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
+                "likes":200,
+                "comments":10
+            },
+            {
+                "title":"Software developer.",
+                "content":" I am excited to share my thoughts and ideas with you all.",
+                "likes":100,
+                "comments":105
+            },
+            {
+                "title":"My first post as a developer.",
+                "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
+                "likes":200,
+                "comments":10
+            }
+        ]
+    },
+    "Maya":{
+        "name":"Mayra",
+        "followers":25000,
+        "following":6,
+        "posts":[
+            {
+                "title":"My first post as a developer.",
+                "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
+                "likes":200,
+                "comments":10
+            },
+            {
+                "title":"Software developer.",
+                "content":" I am excited to share my thoughts and ideas with you all.",
+                "likes":100,
+                "comments":105
+            },
+            {
+                "title":"My first post as a developer.",
+                "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
+                "likes":200,
+                "comments":10
+            }
+        ]
+    }
+}
