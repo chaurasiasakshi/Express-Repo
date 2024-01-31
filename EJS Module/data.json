@@ -6,6 +6,7 @@
         "posts":[
             {
                 "title":"My first post as a developer.",
+                "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdlCvjBsX6i5DF7fF4sF-s2zNDqK1AhwbH1A&usqp=CAU",
                 "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
                 "likes":200,
                 "comments":10
@@ -31,6 +32,7 @@
         "posts":[
             {
                 "title":"My first post as a developer.",
+                "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdlCvjBsX6i5DF7fF4sF-s2zNDqK1AhwbH1A&usqp=CAU",
                 "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
                 "likes":200,
                 "comments":10
