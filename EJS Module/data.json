@@ -1,53 +1,50 @@
 {
-    "Moh":{
-        "name":"Mohammad",
+    "Aina":{
+        "name":"Aina – the famous anime",
         "followers":25000,
         "following":6,
         "posts":[
             {
-                "title":"My first post as a developer.",
                 "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdlCvjBsX6i5DF7fF4sF-s2zNDqK1AhwbH1A&usqp=CAU",
                 "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
                 "likes":200,
                 "comments":10
             },
             {
-                "title":"Software developer.",
-                "content":" I am excited to share my thoughts and ideas with you all.",
+                "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNMjSgc_cvcx6YrZglQ3UH_d95vrDzKBNHzQyRE97VfR89p0JZJ8FmZ8aUGL3fDOreenQ&usqp=CAU"     ,           "content":" I am excited to share my thoughts and ideas with you all.",
                 "likes":100,
                 "comments":105
             },
             {
-                "title":"My first post as a developer.",
+                "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMBC9LBXZeF-9DFl-XSZWCMdCaMPr2LoowuL91SYw_5o7GDwZFHywfzPrpWq_LR2slf-M&usqp=CAU",
                 "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
-                "likes":200,
-                "comments":10
+                "likes":30,
+                "comments":19
             }
         ]
     },
-    "Maya":{
-        "name":"Mayra",
-        "followers":25000,
-        "following":6,
+    "Astro":{
+        "name":"Astro the star",
+        "followers":25,
+        "following":3,
         "posts":[
             {
-                "title":"My first post as a developer.",
-                "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdlCvjBsX6i5DF7fF4sF-s2zNDqK1AhwbH1A&usqp=CAU",
+                "images":"https://media.entertainmentearth.com/assets/images/d7a2449b146a4252ac90a3d6cb49c1c6xl.jpg",
                 "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
                 "likes":200,
                 "comments":10
             },
             {
-                "title":"Software developer.",
+                "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdlCvjBsX6i5DF7fF4sF-s2zNDqK1AhwbH1A&usqp=CAU",
                 "content":" I am excited to share my thoughts and ideas with you all.",
                 "likes":100,
                 "comments":105
             },
             {
-                "title":"My first post as a developer.",
+                "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5jIfV99kaWVM7WRBSza11r5Vwv6O0x64ycg&usqp=CAU",
                 "content":"This is my first blog post. I am excited to share my thoughts and ideas with you all.",
-                "likes":200,
-                "comments":10
+                "likes":20,
+                "comments":40
             }
         ]
     }

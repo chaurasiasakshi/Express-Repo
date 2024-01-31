@@ -9,3 +9,5 @@ interpolation --> embedding expressions  inside `${name}`;
 Using INSTA EJs : 
 
 Conditional Statement in EJS
+
+includes --> <%- include("includes/head.ejs); %>

@@ -14,22 +14,33 @@ app.get("/",(req,res)=>{
 
 // Roll Dice 
 
-app.get("/rolldice",(req,res)=>{
-    let  diceVal = Math.floor(Math.random()*6)+1;
-    res.render("rolldice.ejs", { diceVal });
-});
+// app.get("/rolldice",(req,res)=>{
+//     let  diceVal = Math.floor(Math.random()*6)+1;
+//     res.render("rolldice.ejs", { diceVal });
+// });
 app.get("/msg",(req,res)=>{
     res.send("sending a msg");
 });
 
 // Instagram  EJS
 
+// app.get("/ig/:username",(req,res)=>{
+//     const follower = ["sak","sam","ria","ami","suku"]
+//     let{ username } = req.params;
+//     // console.log(username);
+//     res.render("instagram.ejs", { username , follower});
+// });
+
 app.get("/ig/:username",(req,res)=>{
-    const follower = ["sak","sam","ria","ami","suku"]
-    let{ username } = req.params;
-    // console.log(username);
-    res.render("instagram.ejs", { username , follower});
-})
+    let { username } = req.params;
+    const instaData = require("./data.json");
+    const data = instaData[username];
+    if(data){
+        res.render("instagram.ejs", { data  });
+        }else{
+            res.render("error.ejs");
+        }
+});
 
 
  app.listen(port,()=>{

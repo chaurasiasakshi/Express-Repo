@@ -8,24 +8,35 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      img{
+        height: 100px;
+        width: 100px;
+      }
+
+    </style>
   </head>
   <body>
 <div class="container mt-5">
     <h2 class="text-center">
-        This page belong to <strong> @<%= username %></strong>
+        This page belong to <strong> @<%= data.name %></strong>
+       
     </h2>
+    <br>
+    <p class="text-center">Followerd : <%= data.followers %> &nbsp;&nbsp;&nbsp;&nbsp; Following : <%= data.following %></p>
     <div class="text-center">
     <button class="btn btn-primary">Follow</button>
     <button class="btn btn-info">Message</button>
     <br><br>
     
 </div>
-<h3>Account that follow you:</h3>
-    <ul>
-      <% for(let name of follower){ %>
-      <li><%= name %></li>
-      <% } %>
-    </ul>
+
+<% for(let post of data.posts) {  %>
+  <img src="<%= post.imagse %>" alt="PicOfTheDay">
+  <p class="text-center">
+    Likes : <%= post.likes %> &nbsp;&nbsp;&nbsp;&nbsp; 
+    Comments : <%= post.comments %></p>
+  <% } %>
 </div>
       
     <!-- Optional JavaScript -->
